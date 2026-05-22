@@ -20,12 +20,9 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       {/* Navigation */}
       <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-[#0f293c] to-[#4e6472] rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">S</span>
-            </div>
-            <span className="font-bold text-lg text-[#0f293c]">SageSure</span>
+        <div className="container mx-auto px-4 py-3 flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <img src="/manus-storage/sagesure-logo_01dcab62.png" alt="SageSure" className="h-12 w-auto" />
           </div>
           <div className="text-sm text-[#4e6472]">Insurance Workflow Automation</div>
         </div>
@@ -48,11 +45,14 @@ export default function Home() {
               </div>
 
               <div className="flex gap-4 pt-4">
-                <Button 
-                  className="bg-[#fc6b03] hover:bg-[#e55a00] text-white px-8 py-6 text-lg rounded-lg transition-all duration-200 hover:shadow-lg hover:scale-105"
+                <a 
+                  href="https://22hld.share.hsforms.com/20HwC1h_PRUSUfpt93KIfpw"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center bg-[#fc6b03] hover:bg-[#e55a00] text-white px-8 py-6 text-lg rounded-lg transition-all duration-200 hover:shadow-lg hover:scale-105"
                 >
-                  Start 30-Day Pilot <ArrowRight className="ml-2 w-5 h-5" />
-                </Button>
+                  Schedule a Demo <ArrowRight className="ml-2 w-5 h-5" />
+                </a>
                 <Button 
                   variant="outline"
                   className="border-2 border-[#0f293c] text-[#0f293c] px-8 py-6 text-lg rounded-lg hover:bg-gray-50"
@@ -279,11 +279,14 @@ export default function Home() {
                 </div>
               </div>
 
-              <Button 
-                className="bg-[#fc6b03] hover:bg-[#e55a00] text-white px-8 py-6 text-lg rounded-lg transition-all duration-200 hover:shadow-lg hover:scale-105 w-full"
+              <a 
+                href="https://22hld.share.hsforms.com/20HwC1h_PRUSUfpt93KIfpw"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center bg-[#fc6b03] hover:bg-[#e55a00] text-white px-8 py-6 text-lg rounded-lg transition-all duration-200 hover:shadow-lg hover:scale-105 w-full"
               >
                 Schedule a Demo <ArrowRight className="ml-2 w-5 h-5" />
-              </Button>
+              </a>
             </div>
           </div>
         </div>
@@ -355,17 +358,20 @@ export default function Home() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
-              className="bg-[#fc6b03] hover:bg-[#e55a00] text-white px-8 py-6 text-lg rounded-lg transition-all duration-200 hover:shadow-lg"
+            <a 
+              href="https://22hld.share.hsforms.com/20HwC1h_PRUSUfpt93KIfpw"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center bg-[#fc6b03] hover:bg-[#e55a00] text-white px-8 py-6 text-lg rounded-lg transition-all duration-200 hover:shadow-lg"
             >
-              Start Your Pilot <ArrowRight className="ml-2 w-5 h-5" />
-            </Button>
-            <Button 
-              variant="outline"
-              className="border-2 border-white text-white hover:bg-white/10 px-8 py-6 text-lg rounded-lg"
+              Schedule a Demo <ArrowRight className="ml-2 w-5 h-5" />
+            </a>
+            <a 
+              href="mailto:info@sagesure.io"
+              className="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white/10 px-8 py-6 text-lg rounded-lg transition-all duration-200"
             >
               Contact Sales
-            </Button>
+            </a>
           </div>
 
           <p className="text-gray-300 text-sm mt-8">
@@ -379,12 +385,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div>
-              <div className="flex items-center gap-2 mb-4">
-                <div className="w-8 h-8 bg-[#fc6b03] rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">S</span>
-                </div>
-                <span className="font-bold text-white">SageSure</span>
-              </div>
+              <img src="/manus-storage/sagesure-logo_01dcab62.png" alt="SageSure" className="h-10 w-auto mb-4" />
               <p className="text-sm">Insurance Workflow Automation</p>
             </div>
             <div>
