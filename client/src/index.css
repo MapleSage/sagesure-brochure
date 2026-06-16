@@ -148,6 +148,18 @@
 }
 
 @layer components {
+  @media print {
+    body {
+      margin: 0;
+      padding: 0;
+      background: white;
+    }
+    .page-break {
+      page-break-after: always;
+      page-break-inside: avoid;
+    }
+  }
+
   /**
    * Custom container utility that centers content and adds responsive padding.
    *
